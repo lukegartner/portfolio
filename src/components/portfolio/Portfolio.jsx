@@ -25,15 +25,15 @@ const data = [
     image: IMG3,
     title: "Scorekeeping app",
     github: "https://github.com/lukegartner/the-ledger",
-    demo: "https://the-ledger-luke-gartner.netlify.app/",
+    demo: "https://theledger.netlify.app/",
   },
-  {
-    id: 4,
-    image: IMG4,
-    title: "Disc golf score card",
-    github: "https://github.com/lukegartner/frolf-course",
-    demo: "https://frolf-course.netlify.app",
-  },
+  //   {
+  //     id: 4,
+  //     image: IMG4,
+  //     title: "Disc golf score card",
+  //     github: "https://github.com/lukegartner/frolf-course",
+  //     demo: "https://frolf-course.netlify.app",
+  //   },
 ];
 
 const Portfolio = () => {
