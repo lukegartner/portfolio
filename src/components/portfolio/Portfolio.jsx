@@ -2,10 +2,16 @@ import React from "react";
 import "./portfolio.css";
 import IMG1 from "../../assets/portfolio1.jpeg";
 import IMG2 from "../../assets/portfolio2.png";
-import IMG3 from "../../assets/portfolio3.png";
-import IMG4 from "../../assets/portfolio4.png";
+import IMG3 from "../../assets/screenshot-home.png";
 
 const data = [
+  {
+    id: 3,
+    image: IMG3,
+    title: "Rewards (Planning Center API)",
+    github: "https://github.com/lukegartner/rewards",
+    demo: "",
+  },
   {
     id: 1,
     image: IMG1,
@@ -20,20 +26,6 @@ const data = [
     github: "https://github.com/lukegartner/cocktails",
     demo: "https://cocktails-luke-gartner.netlify.app/",
   },
-  {
-    id: 3,
-    image: IMG3,
-    title: "Scorekeeping app",
-    github: "https://github.com/lukegartner/the-ledger",
-    demo: "https://theledger.netlify.app/",
-  },
-  //   {
-  //     id: 4,
-  //     image: IMG4,
-  //     title: "Disc golf score card",
-  //     github: "https://github.com/lukegartner/frolf-course",
-  //     demo: "https://frolf-course.netlify.app",
-  //   },
 ];
 
 const Portfolio = () => {
@@ -54,9 +46,11 @@ const Portfolio = () => {
                 <a href={github} className="btn" target="_blank">
                   Github
                 </a>
-                <a href={demo} className="btn btn-primary" target="_blank">
-                  Live Demo
-                </a>
+                {demo && (
+                  <a href={demo} className="btn btn-primary" target="_blank">
+                    Live Demo
+                  </a>
+                )}
               </div>
             </article>
           );
