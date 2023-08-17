@@ -29,7 +29,7 @@ const About = () => {
             <article className="about__card">
               <FaReact className="about__icon" />
               <h5>Skills</h5>
-              <small>Modern Front End</small>
+              <small>Full Stack Development</small>
             </article>
 
             <article
@@ -44,10 +44,11 @@ const About = () => {
             </article>
           </div>
           <p>
-            I am a Front End developer with experience building websites and web
-            applications. I specialize in JavaScript and have experience working
-            with React. I also have experience working with HTML, CSS, NodeJS,
-            and Git. Take a look at my work or get in touch!
+            I am a Full Stack Developer with experience building websites and
+            web applications. I specialize in React, Redux, Javascript,
+            MaterialUI, HTML and CSS on the front end. On the back end I have
+            experience with tools including NodeJS, express.js, and SQL. Take a
+            look at my work or get in touch!
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
