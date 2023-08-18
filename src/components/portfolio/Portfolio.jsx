@@ -12,20 +12,20 @@ const data = [
     github: "https://github.com/lukegartner/rewards",
     demo: "",
   },
-  {
-    id: 1,
-    image: IMG1,
-    title: "eCommerce",
-    github: "https://github.com/lukegartner/eCommerce",
-    demo: "https://ecommerce-lukegartner.netlify.app",
-  },
-  {
-    id: 2,
-    image: IMG2,
-    title: "Cocktail search",
-    github: "https://github.com/lukegartner/cocktails",
-    demo: "https://cocktails-luke-gartner.netlify.app/",
-  },
+  // {
+  //   id: 1,
+  //   image: IMG1,
+  //   title: "eCommerce",
+  //   github: "https://github.com/lukegartner/eCommerce",
+  //   demo: "https://ecommerce-lukegartner.netlify.app",
+  // },
+  // {
+  //   id: 2,
+  //   image: IMG2,
+  //   title: "Cocktail search",
+  //   github: "https://github.com/lukegartner/cocktails",
+  //   demo: "https://cocktails-luke-gartner.netlify.app/",
+  // },
 ];
 
 const Portfolio = () => {
