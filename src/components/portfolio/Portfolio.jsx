@@ -10,7 +10,7 @@ const data = [
     image: IMG3,
     title: "Rewards (Planning Center API)",
     github: "https://github.com/lukegartner/rewards",
-    demo: "",
+    demo: "https://pcorewards-28b1ce429de4.herokuapp.com",
   },
   // {
   //   id: 1,
