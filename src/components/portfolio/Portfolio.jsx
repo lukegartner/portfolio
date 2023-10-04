@@ -1,31 +1,31 @@
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "../../assets/portfolio1.jpeg";
-import IMG2 from "../../assets/portfolio2.png";
-import IMG3 from "../../assets/screenshot-home.png";
+import IMG1 from "../../assets/screenshot-home.png";
+import IMG2 from "../../assets/portfolio1.jpeg";
+import IMG3 from "../../assets/Map1.png";
 
 const data = [
   {
-    id: 3,
-    image: IMG3,
+    id: 1,
+    image: IMG1,
     title: "Rewards (Planning Center API)",
     github: "https://github.com/lukegartner/rewards",
     demo: "https://pcorewards-28b1ce429de4.herokuapp.com",
   },
-  // {
-  //   id: 1,
-  //   image: IMG1,
-  //   title: "eCommerce",
-  //   github: "https://github.com/lukegartner/eCommerce",
-  //   demo: "https://ecommerce-lukegartner.netlify.app",
-  // },
-  // {
-  //   id: 2,
-  //   image: IMG2,
-  //   title: "Cocktail search",
-  //   github: "https://github.com/lukegartner/cocktails",
-  //   demo: "https://cocktails-luke-gartner.netlify.app/",
-  // },
+  {
+    id: 2,
+    image: IMG2,
+    title: "Docomomo MN Modern Registry",
+    github: "https://github.com/lukegartner/Docomomo-MN-Modern-Registry",
+    demo: "https://docomomo-mn-modern-registry-28e0f754dd03.herokuapp.com",
+  },
+  {
+    id: 3,
+    image: IMG3,
+    title: "Ride Supply (eCommerce)",
+    github: "https://github.com/lukegartner/ridesupply",
+    demo: "https://ridesupply.netlify.app/",
+  },
 ];
 
 const Portfolio = () => {

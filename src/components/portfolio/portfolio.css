@@ -28,6 +28,7 @@
   gap: 1rem;
   margin-bottom: 1rem;
 }
+
 /* ========= Media Queries (Medium Devices) ========== */
 @media screen and (max-width: 1024px) {
   .portfolio__container {
