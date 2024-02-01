@@ -7,18 +7,19 @@ import IMG3 from "../../assets/Map1.png";
 const data = [
   {
     id: 1,
-    image: IMG1,
-    title: "Rewards (Planning Center API)",
-    github: "https://github.com/lukegartner/rewards",
-    demo: "https://pcorewards-28b1ce429de4.herokuapp.com",
-  },
-  {
-    id: 2,
     image: IMG3,
     title: "Docomomo MN Modern Registry",
     github: "https://github.com/lukegartner/Docomomo-MN-Modern-Registry",
     demo: "https://docomomo-mn-modern-registry-28e0f754dd03.herokuapp.com",
   },
+  {
+    id: 2,
+    image: IMG1,
+    title: "Rewards (Planning Center API)",
+    github: "https://github.com/lukegartner/rewards",
+    demo: "https://pcorewards-28b1ce429de4.herokuapp.com",
+  },
+
   {
     id: 3,
     image: IMG2,
