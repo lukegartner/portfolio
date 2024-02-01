@@ -14,14 +14,14 @@ const data = [
   },
   {
     id: 2,
-    image: IMG2,
+    image: IMG3,
     title: "Docomomo MN Modern Registry",
     github: "https://github.com/lukegartner/Docomomo-MN-Modern-Registry",
     demo: "https://docomomo-mn-modern-registry-28e0f754dd03.herokuapp.com",
   },
   {
     id: 3,
-    image: IMG3,
+    image: IMG2,
     title: "Ride Supply (eCommerce)",
     github: "https://github.com/lukegartner/ridesupply",
     demo: "https://ridesupply.netlify.app/",
